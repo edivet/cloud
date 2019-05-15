@@ -22,10 +22,9 @@ Now, you should be able to access the Wordpress webpage when typing in a browser
 
 # Packer
 
-To build a reusable image of your server you can type the following commands: (be aware of putting the sensitiv data as environment variables)
+To build a reusable image of my server, I created a file.json.  you can type the following commands: 
  
-  - cd playbook
-  - packer build  scaleway-cloud-courses.json
+  - packer build  scaleway-cloud-courses-template.json
 
 You can verify the creation of this image on your scaleway account, when used, it should display the Wordpress homepage, and you will be able to custom it as you wish.
 
